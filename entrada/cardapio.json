@@ -1,0 +1,265 @@
+{
+  "logo": "./assets/logo.svg",
+  "slogan": "O verdadeiro sabor!",
+  "contato": [
+    {
+      "icones": ["whatsapp"],
+      "texto": "(48) 9 9652-1858"
+    },
+    {
+      "icones": ["instagram", "facebook"],
+      "texto": "@JeffsBurgerOfficial"
+    }
+  ],
+  "secoes": {
+    "Hambúrgueres": [
+      {
+        "nome": "Burguinho",
+        "preco": "R$15,00",
+        "descricao": "Pão cervejinha, hambúrguer de 100g, queijo mussarela e maionese."
+      },
+      {
+        "nome": "Salad Burger",
+        "preco": "R$23,90",
+        "descricao": "Pão brioche, hambúrguer de 150g, queijo mussarela, alface, tomate e maionese verde."
+      },
+      {
+        "nome": "Bacon Burger",
+        "preco": "R$26,90",
+        "descricao": "Pão italiano, hambúrguer de 150g, bacon, queijo mussarela, cebola refogada, maionese e molho barbecue."
+      },
+      {
+        "nome": "Calabresa Burger",
+        "preco": "R$24,90",
+        "descricao": "Pão italiano, hambúrguer de 150g, calabresa, queijo mussarela, cebola refogada e maionese."
+      },
+      {
+        "nome": "Chicken Burger",
+        "preco": "R$25,00",
+        "descricao": "Pão roseta, hambúrguer de 150g, frango, queijo mussarela, alface, tomate, maionese verde e ketchup."
+      },
+      {
+        "nome": "Crispy Burger",
+        "preco": "R$25,50",
+        "descricao": "Pão de fubá, hambúrguer de 200g de carne suína, queijo mussarela, cebola crispy e maionese de bacon."
+      },
+      {
+        "nome": "Cheddar Smash",
+        "preco": "R$27,50",
+        "descricao": "Pão brioche, 2 hambúrgueres de 100g, cebola ao molho inglês e molho cheddar."
+      },
+      {
+        "nome": "4 Cheese",
+        "preco": "R$26,90",
+        "descricao": "Pão brioche, 2 hambúrgueres de 100g, queijo cheddar, queijo mussarela, queijo provolone, queijo prato, maionese e molho barbecue."
+      },
+      {
+        "nome": "Special Burger",
+        "preco": "R$25,90",
+        "descricao": "Pão roseta, hambúrguer de 150g de costela, bacon, queijo provolone, molho especial e molho barbecue."
+      },
+      {
+        "nome": "Linguiça Blumenau",
+        "preco": "R$28,50",
+        "descricao": "Pão roseta, 2 hambúrgueres de 100g de linguiça blumenau, bacon, queijo cheddar, alface, cebola refogada, maionese e molho rústico."
+      },
+      {
+        "nome": "Rib Burger",
+        "preco": "R$29,90",
+        "descricao": "Pão brioche, hambúrguer de 200g de costela, queijo cheddar, alface, tomate, pepino, cebola refogada e maionese."
+      },
+      {
+        "nome": "Honey Mustard",
+        "preco": "R$30,50",
+        "descricao": "Pão italiano, hambúrguer de 200g de costela, queijo mussarela, pepino, rúcula, tomate, cebola caramelizada, molho de mostarda com mel e maionese gorgonzola."
+      },
+      {
+        "nome": "FraldiBrie",
+        "preco": "R$28,90",
+        "descricao": "Pão roseta, hambúrguer de 200g, bacon, queijo brie, rúcula, tomate, cebola caramelizada e maionese."
+      },
+      {
+        "nome": "Onion Rings",
+        "preco": "R$29,50",
+        "descricao": "Pão roseta, 2 hambúrgueres de 100g, queijo provolone, queijo prato, anéis de cebola, molho barbecue e maionese."
+      },
+      {
+        "nome": "Cheddar Smash Triplo",
+        "preco": "R$30,90",
+        "descricao": "Pão brioche, 3 hambúrgueres de 100g, cebola ao molho inglês e molho cheddar."
+      },
+      {
+        "nome": "Perone Burger",
+        "preco": "R$31,50",
+        "descricao": "Pão italiano, hambúrguer de 200g de carne suína, bacon, queijo mussarela, tomate, rúcula, cebola crispy, maionese de bacon e molho barbecue."
+      },
+      {
+        "nome": "Linguiça Blumenau Triplo",
+        "preco": "R$33,50",
+        "descricao": "Pão roseta, 3 hambúrgueres de 100g de linguiça blumenau, bacon, queijo cheddar, alface, cebola refogada, maionese e molho rústico."
+      },
+      {
+        "nome": "The One",
+        "preco": "R$32,00",
+        "descricao": "Pão ciabatta, hambúrguer de 200g de costela, cream cheese, rúcula, tomate e farofa de bacon barbecue."
+      },
+      {
+        "nome": "Monster Cheese",
+        "preco": "R$35,00",
+        "descricao": "Pão ciabatta, hambúrguer de 150g, queijo mussarela, queijo empanado, lombinho defumado, alface, tomate e maionese verde."
+      },
+      {
+        "nome": "Rib Duplo",
+        "preco": "R$37,50",
+        "descricao": "Pão brioche, 2 hambúrgueres de 200g de costela, bacon, queijo cheddar, alface, tomate, pepino, cebola refogada e maionese."
+      }
+    ],
+    "Acompanhamentos": [
+      {
+        "nome": "Batata Frita 100g",
+        "preco": "R$12,00"
+      },
+      {
+        "nome": "Anéis de Cebola (7un)",
+        "preco": "R$12,90"
+      },
+      {
+        "nome": "Chicken Supreme",
+        "preco": "R$13,00"
+      },
+      {
+        "nome": "Nuggets Tekitos",
+        "preco": "R$10,00"
+      }
+    ],
+    "Adicionais": [
+      {
+        "nome": "Bacon",
+        "preco": "R$7,00"
+      },
+      {
+        "nome": "Calabresa",
+        "preco": "R$6,00"
+      },
+      {
+        "nome": "Peito de frango",
+        "preco": "R$6,00"
+      },
+      {
+        "nome": "Cebola Crispy",
+        "preco": "R$6,00"
+      },
+      {
+        "nome": "Aneis de Cebola",
+        "preco": "R$7,00"
+      },
+      {
+        "nome": "Molho Cheddar",
+        "preco": "R$7,00"
+      },
+      {
+        "nome": "Hambúrguer de 100g",
+        "preco": "R$10,00"
+      },
+      {
+        "nome": "Hambúrguer de 100g de linguiça blumenau",
+        "preco": "R$13,00"
+      },
+      {
+        "nome": "Hambúrguer de 150g",
+        "preco": "R$12,00"
+      },
+      {
+        "nome": "Hambúrguer de 150g de costela",
+        "preco": "R$12,90"
+      },
+      {
+        "nome": "Hambúrguer de 200g de costela",
+        "preco": "R$14,00"
+      },
+      {
+        "nome": "Hambúrguer de 200g de carne suína",
+        "preco": "R$12,50"
+      },
+      {
+        "nome": "Ovo",
+        "preco": "R$5,00"
+      },
+      {
+        "nome": "Cebola Caramelizada",
+        "preco": "R$5,00"
+      }
+    ],
+    "Porções": [
+      {
+        "nome": "Anéis de Cebola",
+        "preco": "R$21,00",
+        "descricao": "Porção de 200g de cebolas empanadas."
+      },
+      {
+        "nome": "Batata Frita 500G",
+        "preco": "R$26,50",
+        "descricao": "Porção de 500g de batata frita."
+      },
+      {
+        "nome": "Batata Frita 250G",
+        "preco": "R$21,50",
+        "descricao": "Porção de 250g de batata frita."
+      },
+      {
+        "nome": "Batata Frita com Cheddar",
+        "preco": "R$28,50",
+        "descricao": "Porção de 500g de batata frita com molho cheddar."
+      },
+      {
+        "nome": "Batata Frita com Cheddar e Bacon",
+        "preco": "R$36,90",
+        "descricao": "Porção de 500g de batata frita com molho cheddar e fatias de bacon."
+      },
+      {
+        "nome": "Chicken Supreme",
+        "preco": "R$27,00",
+        "descricao": "Porção de 400g de pedaços de peito de frango empanado com farinha fina."
+      },
+      {
+        "nome": "Nuggets Tekitos",
+        "preco": "R$24,00",
+        "descricao": "Porção de 400g de empanado de frango tradicional."
+      }
+    ],
+    "Bebidas": [
+      {
+        "nome": "Coca Cola 2L",
+        "preco": "R$16,00"
+      },
+      {
+        "nome": "Coca Cola 600ml",
+        "preco": "R$9,00"
+      },
+      {
+        "nome": "Coca Cola Lata",
+        "preco": "R$7,00"
+      },
+      {
+        "nome": "Guaraná Antarctica 2L",
+        "preco": "R$16,00"
+      },
+      {
+        "nome": "Guaraná Antarctica 600ml",
+        "preco": "R$9,00"
+      },
+      {
+        "nome": "Guaraná Antarctica Lata",
+        "preco": "R$7,00"
+      },
+      {
+        "nome": "Água com gás",
+        "preco": "R$4,00"
+      },
+      {
+        "nome": "Água sem gás",
+        "preco": "R$4,00"
+      }
+    ]
+  }
+}

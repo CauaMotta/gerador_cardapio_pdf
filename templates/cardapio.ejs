@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        <%- cssStyles %>
+    </style>
+    <style>
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background-image: url("<%- patternBase64 %>");
+            background-repeat: repeat;
+            background-size: 10%;
+            opacity: 0.04;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    <div class="cardapio-container">
+
+                        <header class="header">
+                            <div class="logo-container">
+                                <img src="<%= logo %>" alt="JeffsBurger">
+                            </div>
+                            <div class="info-container">
+                                <p class="slogan">
+                                    <%= slogan %>
+                                </p>
+                                <ul class="social-container">
+                                    <% contatos.forEach(contato=> { %>
+                                        <li class="social">
+                                            <% contato.iconesBase64.forEach(icone=> { %>
+                                                <span>
+                                                    <img src="<%= icone %>">
+                                                </span>
+                                                <% }); %>
+                                                    <p class="text">
+                                                        <%= contato.texto %>
+                                                    </p>
+                                        </li>
+                                        <% }); %>
+                                </ul>
+                            </div>
+                        </header>
+
+                        <main>
+                            <% Object.keys(secoes).forEach(secao=> { %>
+                                <section class="menu">
+                                    <h2 class="menu-title">
+                                        <%= secao %>
+                                    </h2>
+                                    <% secoes[secao].forEach(item=> { %>
+                                        <div class="card">
+                                            <% if (item.imagemUrl) { %>
+                                                <div class="card-image">
+                                                    <img src="<%= item.imagemUrl %>" alt="<%= item.nome %>">
+                                                </div>
+                                                <% } %>
+                                                    <div class="card-content">
+                                                        <div class="card-header">
+                                                            <h3 class="card-title">
+                                                                <%= item.nome %>
+                                                            </h3>
+                                                            <p class="card-price">
+                                                                <%= item.preco %>
+                                                            </p>
+                                                        </div>
+                                                        <hr class="line">
+                                                        <p class="card-desc">
+                                                            <%= item.descricao %>
+                                                        </p>
+                                                    </div>
+                                        </div>
+                                        <% }); %>
+                                </section>
+                                <% }); %>
+                        </main>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td></td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+
+</html>
