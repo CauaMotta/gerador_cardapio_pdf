@@ -65,12 +65,8 @@ async function gerarCardapioPDF() {
         } else {
           const extensions = [".jpeg", ".jpg", ".png"];
           for (const ext of extensions) {
-            const imagePath = path.join(
-              __dirname,
-              "assets/images",
-              `${item.nome}${ext}`
-            );
-            if (fs.existsSync(imagePath)) {
+            const imagePath = path.join("assets/images", `${item.nome}${ext}`);
+            if (fs.existsSync(path.join(__dirname, imagePath))) {
               imageBase64 = toBase64(imagePath);
               break;
             }
