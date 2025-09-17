@@ -19,8 +19,13 @@ if exist node_modules (
 )
 echo.
 
-echo [3/4] Instalando dependencias (npm install)...
-npm install
+echo [3/4] Instalando dependencias...
+call npm install
+if errorlevel 1 (
+    echo Erro ao instalar dependencias!
+    pause
+    exit /b
+)
 echo.
 
 echo [4/4] Escondendo arquivos do sistema...
