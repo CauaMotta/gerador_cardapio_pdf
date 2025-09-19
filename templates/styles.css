@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
+  /* Cores antigas */
   --bg-color: #161616;
   --font-color: #eeeeee;
+  /* Cores Novas
+  --bg-color: #d3af37;
+  --font-color: #252525; */
   --font-family: "Roboto", sans-serif;
 }
 
@@ -63,7 +67,7 @@ tfoot {
 
 .slogan {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .social-container {
@@ -96,7 +100,7 @@ tfoot {
 .text {
   font-size: 14px;
   line-height: 16px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 /* Estilização do Menu */
@@ -105,6 +109,9 @@ tfoot {
   font-size: 20px;
   text-align: center;
   margin-top: 16px;
+
+  page-break-after: avoid;
+  break-after: avoid;
 }
 
 /* Estilização do card */
@@ -149,7 +156,7 @@ tfoot {
 .card-price {
   font-size: 18px;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .card-price {
@@ -157,7 +164,7 @@ tfoot {
 }
 
 .line {
-  height: 1px;
+  height: 2px;
   background-color: var(--font-color);
   border: none;
   margin: 4px 0;
@@ -166,6 +173,6 @@ tfoot {
 .card-desc {
   font-size: 12px;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 500;
   padding-inline: 8px;
 }
